@@ -1,0 +1,99 @@
+.header__home{
+    display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+.header__container{
+    display: flex;
+width: 80%;
+padding: 32px 0px;
+justify-content: space-between;
+align-items: center;
+}
+.header__principal{
+    display: flex;
+align-items: center;
+gap: 32px;
+}
+
+.header__search{
+    position: relative;
+}
+.header__search-input{
+    display: flex;
+width: 250px;
+padding: 8px 16px;
+align-items: center;
+gap: 8px;
+border-radius: 20px;
+background:  #F5F5F5;
+border: none;
+
+}
+.header__search-icon{
+    position: absolute;
+    inset: 0;
+    left: auto;
+    right: 20px;
+    margin: auto;
+}
+.header__login{
+font-family: Raleway;
+font-size: 16px;
+
+font-weight: 400;
+
+text-decoration: none;
+}
+.header__login-button{
+    display: flex;
+width: 182px;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+background: transparent;
+border: 1px solid #2A7AE4;
+color: #2A7AE4;
+}
+.header__mobile-button{
+    display: none;
+}
+
+
+@media (767px <=width <=1023px) {
+    .header__container{
+        width: 95%;
+    }
+    .header__mobile-button{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px){
+    .header__container{
+       gap: 5px;
+    }
+    .header__logoHome-image{
+        width: 100px;
+    }
+    
+    .header__search-input{
+        display: none;
+    }
+    .header__search-button, .header__search-icon{
+       display: none;
+    }
+    .header__login-button{
+        width: 100px;
+        padding: 8px;
+    }
+    .header__mobile-button{
+        border: none;
+        background: transparent;
+        display: flex;
+    }
+}

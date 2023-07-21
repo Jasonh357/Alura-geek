@@ -1,0 +1,105 @@
+.producto{
+    width: 100%
+}
+.producto__container{
+    padding: 20px 0;
+    width: 95%;
+    margin: 0 auto;
+}
+.producto__header{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.producto__titulo{
+    color:  #464646;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.producto__mostrar{
+    display: flex;
+align-items: center;
+gap: 8px;
+text-decoration: none;
+color:  #2A7AE4;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+}
+.producto__listados{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    width: 100%;
+}
+.productos__lista{
+    gap: 8px;
+    
+    display: flex;
+    flex-direction: column;
+}
+.producto__img{
+    display: flex;
+    width: 176px;
+    height: 174px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    max-width: 100%;
+}
+.producto__nombre{
+    color:  #464646;
+font-family: Raleway;
+font-size: 14px;
+font-weight: 500;
+}
+.producto__precio{
+    color:  #464646;
+font-family: Raleway;
+font-size: 16px;
+
+font-weight: 700;
+
+}
+.producto__ver{
+    color:  #2A7AE4;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+text-decoration: none;
+
+}
+
+@media (767px <=width <=1023px) {
+    .producto__listados {
+      grid-template-columns: repeat(2, 1fr); /* Cambiar a una cuadrícula de 2 columnas en pantallas más pequeñas */
+    
+    }
+  
+    /* Ocultar el último elemento .productos__lista */
+    .producto__listados .productos__lista:last-child {
+      display: none;
+    }
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 766px){
+    .producto__listados {
+        /*grid-template-columns: repeat(4, 1fr); /* Cambiar a una cuadrícula de 2 columnas en pantallas más pequeñas */
+       flex-wrap: wrap;
+       gap: 0.5rem;
+      }
+    
+      /* Ocultar el último elemento .productos__lista */
+      .producto__listados .productos__lista:last-child {
+        display: none;
+      }
+  }
