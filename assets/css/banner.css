@@ -1,7 +1,9 @@
-.banner__container{
-    background: url("../assets/img/banner.png")lightgray 50% / cover no-repeat;
+.banner{
+    background: url("/./assets/img/banner.png")lightgray 50% / cover no-repeat;
     background-size: cover;
     background-position: 50% 50%;
+}
+.banner__container{
     display: flex;
     height: 352px;
     padding: 32px;
