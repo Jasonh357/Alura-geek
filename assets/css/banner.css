@@ -1,5 +1,5 @@
 .banner{
-    background: url("/./assets/img/banner.png")lightgray 50% / cover no-repeat;
+    background: url("../img/banner.png")lightgray 50% / cover no-repeat;
     background-size: cover;
     background-position: 50% 50%;
 }
