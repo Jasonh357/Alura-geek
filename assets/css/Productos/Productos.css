@@ -1,0 +1,121 @@
+.productos__container{
+    display: flex;
+width: 100%;
+flex-direction: column;
+align-items: center;
+background: #f5f5f5;
+}
+.productos__top{
+    display: flex;
+width: 95%;
+padding: 32px 10px;
+justify-content: space-between;
+align-items: center;
+}
+.productos__titulo{
+    color:  #464646;
+font-family: Raleway;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.productos__btn{
+    display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #2A7AE4;
+border: none;
+color: #ffffff;
+cursor: pointer;
+font-family: Raleway;
+}
+.productos__link{
+    text-decoration: none;
+}
+.productos{
+    display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: center;
+gap: 24px;
+padding: 2rem 0.5rem;
+}
+.productos__all{
+    display: flex;
+align-items: flex-start;
+gap: 16px;
+
+}
+.productos__disponibles{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+position: relative;
+}
+.productos__img{
+    width: 176px;
+height: 174px;
+flex-shrink: 0;
+}
+.productos__eliminar{
+   
+    position: absolute;
+    left: 110px;
+    padding: 5px;
+    cursor: pointer;
+}
+.productos__editar{
+   
+    position: absolute;
+    right: 0;
+    padding: 5px;
+    cursor: pointer;
+}
+.productos__eliminar:hover, .productos__editar:hover{
+    transform: scale(1.1);
+}
+.productos__nombre{
+    color:  #464646;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.productos__precio{
+    color:  #464646;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.productos__detalle{
+    color:  #464646;
+font-family: Raleway;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 766px){
+    .productos__top{
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .productos__titulo{
+        font-size: 22px;
+    }
+}
+@media (767px <=width <=1023px) {
+    .productos{
+        gap: 14px;
+        justify-content: flex-start;
+    }
+}

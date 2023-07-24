@@ -30,7 +30,9 @@ gap: 8px;
 border-radius: 20px;
 background:  #F5F5F5;
 border: none;
-
+}
+.header__search-input:focus{
+    outline: none;
 }
 .header__search-icon{
     position: absolute;
@@ -42,9 +44,7 @@ border: none;
 .header__login{
 font-family: Raleway;
 font-size: 16px;
-
 font-weight: 400;
-
 text-decoration: none;
 }
 .header__login-button{
@@ -58,7 +58,14 @@ flex-shrink: 0;
 background: transparent;
 border: 1px solid #2A7AE4;
 color: #2A7AE4;
+cursor: pointer;
+
 }
+.header__login-button:hover{
+    background: #2A7AE4;
+    color: #ffffff;
+
+}   
 .header__mobile-button{
     display: none;
 }
