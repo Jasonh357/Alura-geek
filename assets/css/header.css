@@ -69,7 +69,24 @@ cursor: pointer;
 .header__mobile-button{
     display: none;
 }
+.header__btn-registrar{
 
+width: 183px;
+padding: 16px;
+
+border: 1px solid  #2A7AE4;
+background: transparent;
+color: #2A7AE4;
+cursor: pointer;
+}
+.header__btn-registrar:hover{
+     background: #2A7AE4;
+    color: #ffffff;
+}
+.header__btn-a{
+    text-decoration: none;
+   
+}
 
 @media (767px <=width <=1023px) {
     .header__container{
@@ -83,6 +100,7 @@ cursor: pointer;
 @media only screen and (min-width: 320px) and (max-width: 766px){
     .header__container{
        gap: 5px;
+       
     }
     .header__logoHome-image{
         width: 100px;
@@ -102,5 +120,11 @@ cursor: pointer;
         border: none;
         background: transparent;
         display: flex;
+    }
+}
+@media only  screen and (min-width: 320px) and (max-width: 424px) {
+    .header__btn-registrar{
+        width: 107px;
+        font-size: 13px;
     }
 }
