@@ -33,30 +33,35 @@
     <main>
         <section class="nuevo__producto">
             <div class="nuevo__producto-container">
-                <form class="nuevo__producto-form">
+                <form class="nuevo__producto-form" id="nuevo__producto-form">
                     <h2 class="nuevo__producto-titulo">Agregar nuevo producto</h2>
-                   <div class="nuevo-producto-input-container">
-                    <input class="nuevo__producto-input" type="text" placeholder="Url de imagen">
+                   <div class="nuevo__grupo" id="input__url">
+                    <input class="nuevo__producto-input" type="text" placeholder="Url de imagen" name="url" id="url">
                     <label class="nuevo__producto-label" for="text">Url de imagen</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
-                   <div class="nuevo-producto-input-container">
-                     <input class="nuevo__producto-input" type="text" placeholder="Categoria">
+                   <div class="nuevo__grupo" id="input__categoria">
+                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria">
                     <label class="nuevo__producto-label" for="text">Categoria</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
-                   <div class="nuevo-producto-input-container">
-                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto">
+                   <div class="nuevo__grupo" id="input__nombre">
+                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre">
                     <label class="nuevo__producto-label" for="text">Nombre del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
-                   <div class="nuevo-producto-input-container">
-                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto">
+                   <div class="nuevo__grupo" id="input__precio">
+                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio">
                     <label class="nuevo__producto-label" for="text">Precio del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
-                   <div class="nuevo-producto-input-container">
-                    <input class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto">
+                   <div class="nuevo__grupo" id="input__descripcion">
+                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion"></textarea>
                     <label class="nuevo__producto-label" for="text">Descripcion del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                     
-                    <button class="nuevo__producto-btn"> Agregar producto</button>
+                    <button type="submit" class="nuevo__producto-btn"> Agregar producto</button>
                 </form>
             </div>
 
@@ -82,22 +87,24 @@
                     <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Anúncie aquí</a></li>
                 </ul>
             </div>
-            <form class = "contacto__contactar" id = "form__data">
+            <form class = "contacto__contactar" id = "form">
                 <h2 class = "contacto__titulo">Hable con nosotros</h2>
     
-                <div class="contacto__input-container">
-                    <input name="name" id="name" class="contactoform__input" type="text" placeholder="Nombre" required
-                        data-tipo="nombre">
+                <div class="contacto__input" id="contacto__nombre">
+                    <input name="nombre" id="name" class="contactoform__input" type="text" placeholder="Nombre" required>
                     <label class="contacto__input-label" for="name">Nombre</label>
+                    <span class="input__mensaje-error">Este campo no es valido</span>
                 </div>
     
-                <div class="contacto__input-container">
-                    <textarea class="contacto__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+                <div class="contacto__input" id="contacto__mensaje" >
+                    <textarea class="contactoform__input-msg" rows="5" cols="40" id="mensaje" name="mensaje"
                         placeholder="Mensaje"></textarea>
-                    <label class="contacto__textarea-label" for="name">Mensaje</label>
+                    <label class="contacto__textarea-label" for="mensaje">Mensaje</label>
+                    <span class="input__mensaje-error">Este campo no es valido</span>
                 </div>
     
-                <input class = "contacto__button" id = "contact__boton" type = "submit" value = "Enviar mensaje">
+                <button class = "contacto__button" id = "contact__boton" >Enviar mensaje</button>
+                <span class="contacto__enviado" id="contacto__enviado">Mensaje enviado con exito!</span>
             </form>
         </section>
         <div class="info__footer">
@@ -105,5 +112,7 @@
             <p>2023</p>
         </div>
     </footer>
+    <script src="../js/validaciones.js"></script>
+    <script  src="../js/validacion-nuevo.js"></script>
 </body>
 </html>

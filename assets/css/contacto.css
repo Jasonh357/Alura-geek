@@ -48,7 +48,7 @@ font-weight: 700;
 line-height: normal;
 align-self: stretch;
 }
-.contacto__input-container {
+.contacto__input {
     position: relative;
     margin-bottom: 1rem;
     display: flex;
@@ -71,22 +71,26 @@ align-self: stretch;
     padding: 1.375rem 0.5rem 0.5rem;
     height: 3.25rem;
     width: 350px;
-
 }
-
+.contactoform__input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+}
 .contactoform__input::placeholder {
     visibility: hidden;
     color: #00000000;
 }
 
-.contacto__textarea::placeholder {
+.contactoform__input-msg::placeholder {
     visibility: hidden;
 }
 
-.contactoform__input:focus, .contacto__textarea {
+.contactoform__input:focus {
     outline: none;
 }
-
+.contactoform__input-msg:focus{
+    outline: none;
+}
 
 .contacto__input-label, .contacto__textarea-label {
     position: absolute;
@@ -97,23 +101,24 @@ align-self: stretch;
 }
 
 .contactoform__input:not(:placeholder-shown)+.contacto__input-label,
-.contactoform__input:focus+.contacto__input-label, .contacto__textarea:not(:placeholder-shown)+.contacto__textarea-label,
-.contacto__textarea:focus+.contacto__textarea-label {
+.contactoform__input:focus+.contacto__input-label, .contactoform__input-msg:not(:placeholder-shown)+.contacto__textarea-label,
+.contactoform__input-msg:focus+.contacto__textarea-label {
     font-size: 0.875rem;
     top: 0.25rem;
     transition: all 0.25s;
 }
-.contacto__textarea {
-    display: flex;
-    padding: 16px 0px 0px 5px;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-start;
-    gap: 92px;
+
+.contactoform__input-msg{
+    height: 82px;
+    width: 350px;
+    padding-top: 16px ;
     border: none;
     border-radius: 5px;
     resize: none;
     font-family: Raleway;
+}
+.contactoform__input-msg:focus{
+    border: 3px solid #0075ff;
 }
 .contacto__button{
     display: flex;
@@ -130,8 +135,45 @@ font-family: Raleway;
     box-shadow: 0 5px 10px 5px rgba(22, 26, 45, 0.11);
     transform: scale(1.02);
 }
+.input__mensaje-error{
+    font-size: 15px;
+    padding-top: 0.5rem;
+    display: none;
+   
+}
+.input__mensaje-error-activo{
+    display: flex;
+}
 
-@media only screen and (min-width: 320px) and (max-width: 766px){
+.contacto__enviado{
+    font-size: 20px;
+    color: #2A7AE4;
+    display: none;
+}
+
+.contacto__enviado-activo{
+    display: block;
+}
+
+/*-----Mensaje de error-----*/
+
+.contacto__input-error .contacto__input-label{
+    color: #bb2929;
+}
+.contacto__input-error .contactoform__input{
+    border: 3px solid #bb2929;
+}
+.contacto__input-error .contactoform__input-msg{
+    border: 3px solid #bb2929;
+}
+.contacto__input-error .contacto__textarea-label{
+    color: #bb2929;
+}
+.contacto__input-error .input__mensaje-error{
+    color: #bb2929;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 424px){
     .contacto__container{
         flex-direction: column;
         align-items: center;
@@ -142,12 +184,12 @@ font-family: Raleway;
     }
 
     .contacto__contactar{
-       padding: 0 2rem;
+       padding-left: 0.5rem;
     }
-    .contacto__textarea{
-        width: 100%;
+    .contactoform__input-msg{
+        width: 270px;
     }
     .contactoform__input{
-        width: 100%;
+        width: 270px;
     }
 }

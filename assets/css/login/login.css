@@ -18,6 +18,9 @@ justify-content: center;
     align-items: center;
     gap: 1rem;
 }
+.login__grupo{
+    display: grid;
+}
 .login__texto{
     width: 131px;
 height: 29px;
@@ -37,8 +40,18 @@ border: none;
 padding-left: 1rem;
 border-bottom: 1px solid #c8c8c8;
 }
- .login__email, .login__contraseña:focus{
+
+ .login__email:focus, .login__contraseña:focus{
     outline: none;
+    border: 3px solid #2A7AE4;
+}
+.login__mensaje-error{
+    font-size: 12px;
+    padding-top: 0.5rem;
+    display: none;
+}
+.login__mensaje-error-activo{
+    display: flex;
 }
 .login_btn{
     display: flex;
@@ -54,6 +67,20 @@ border: none;
 color: #ffffff;
 font-weight: 600;
 cursor: pointer;
+}
+
+/*-----Mensaje de error-----*/
+
+
+.login__grupo-error .login__email{
+    border: 3px solid #bb2929;
+}
+
+.login__grupo-error .login__contraseña{
+    border: 3px solid #bb2929;
+}
+.login__grupo-error .login__mensaje-error{
+    color: #bb2929;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 766px){
