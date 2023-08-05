@@ -33,30 +33,30 @@
     <main>
         <section class="nuevo__producto">
             <div class="nuevo__producto-container">
-                <form class="nuevo__producto-form" id="nuevo__producto-form">
+                <form class="nuevo__producto-form" id="nuevo__producto-form" data-form>
                     <h2 class="nuevo__producto-titulo">Agregar nuevo producto</h2>
                    <div class="nuevo__grupo" id="input__url">
-                    <input class="nuevo__producto-input" type="text" placeholder="Url de imagen" name="url" id="url">
+                    <input class="nuevo__producto-input" type="text" placeholder="Url de imagen" name="url" id="url" data-url required>
                     <label class="nuevo__producto-label" for="text">Url de imagen</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__categoria">
-                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria">
+                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria" data-categoria >
                     <label class="nuevo__producto-label" for="text">Categoria</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__nombre">
-                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre">
+                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre" data-nombre >
                     <label class="nuevo__producto-label" for="text">Nombre del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__precio">
-                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio">
+                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio" data-precio >
                     <label class="nuevo__producto-label" for="text">Precio del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__descripcion">
-                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion"></textarea>
+                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion" data-dsc ></textarea>
                     <label class="nuevo__producto-label" for="text">Descripcion del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
@@ -91,7 +91,7 @@
                 <h2 class = "contacto__titulo">Hable con nosotros</h2>
     
                 <div class="contacto__input" id="contacto__nombre">
-                    <input name="nombre" id="name" class="contactoform__input" type="text" placeholder="Nombre" required>
+                    <input name="nombre" id="name" class="contactoform__input" type="text" placeholder="Nombre" >
                     <label class="contacto__input-label" for="name">Nombre</label>
                     <span class="input__mensaje-error">Este campo no es valido</span>
                 </div>
@@ -112,7 +112,9 @@
             <p>2023</p>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../js/validaciones.js"></script>
     <script  src="../js/validacion-nuevo.js"></script>
+    <script type="module" src="../controllers/registro-control.js"></script>
 </body>
 </html>

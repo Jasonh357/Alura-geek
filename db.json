@@ -1,0 +1,204 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "admin",
+      "email": "alfadmin@hotmail.com",
+      "contrasena": "1234"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Tostadora Darth Vader",
+      "precio": 50,
+      "imagen": "https://estaticos.elperiodico.com/resources/jpg/0/8/1556887605980.jpg",
+      "categoria": "Star Wars",
+      "descripcion": "Haz que tus tostadas se pasen el lado oscuro con esta tostadora de Darth Vader."
+    },
+    {
+      "id": 2,
+      "nombre": "Taza Star Wars",
+      "precio": 20,
+      "imagen": "https://img.elo7.com.br/product/zoom/3289F64/arte-para-caneca-filmes-series-178-pacote-de-artes-para-sublimacao.jpg",
+      "categoria": "Star Wars",
+      "descripcion": "Que tus bebidas sean de otra galaxia con esta taza de Star Wars edicion limitada."
+    },
+    {
+      "id": 3,
+      "nombre": "Figura Baby Yoda",
+      "precio": 50,
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_904484-MLV45357809186_032021-F.jpg",
+      "categoria": "Star Wars",
+      "descripcion": "Baby yoda un leal compañero de aventuras."
+    },
+    {
+      "id": 4,
+      "nombre": "Figura R2D2",
+      "precio": 50,
+      "imagen": "https://th.bing.com/th/id/OIP.gc-OL5eFL42Zo9TCr3R_AwHaHa?pid=ImgDet&rs=1",
+      "categoria": "Star Wars",
+      "descripcion": "Aqui esta el mejor amigo del hombre R2D2 que te acompañara a todas partes de la galaxia"
+    },
+    {
+      "nombre": "Figura Darth Vader",
+      "precio": 55,
+      "imagen": "https://i5.walmartimages.com/asr/0dc71c3a-a287-4ad1-a5ba-f46445771426.2fbbd905ebc1b89ec3d66cdee73c1472.jpeg",
+      "categoria": "Star Wars",
+      "descripcion": "Que el lado oscuro este siempre de tu lado con esta figura de colecion de Darth Vader.",
+      "id": 5
+    },
+    {
+      "nombre": "Consola Juegos retro",
+      "precio": 325,
+      "imagen": "https://www.adslzone.net/app/uploads-adslzone.net/2020/01/x12-consola.jpg",
+      "categoria": "Consolas",
+      "descripcion": "Que lo retro nunca pase de moda con esta consola retro podras jugar todos los juegos que te gustaban de pequeño.",
+      "id": 6
+    },
+    {
+      "nombre": "Consola Ness",
+      "precio": 150,
+      "imagen": "https://th.bing.com/th/id/R.a3b33190c46f1de0f6b98c4d98825f2b?rik=LFQmK9Zuz9wNsQ&riu=http%3a%2f%2f1.bp.blogspot.com%2f-BV0rQVVo70g%2fUg6rvkIPpeI%2fAAAAAAAAAvM%2fBxgPJPKVjpo%2fs1600%2fNES.jpg&ehk=WJstpIJ7R8xLL4aCO%2fi99iTXUuVMw5947IVuvTx%2bXHo%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Consolas",
+      "descripcion": "Disfruta de los increibles juegos que la consola ness ofrece, revive esos momentos de contra y otros juegos que tanto te encantaban.",
+      "id": 7
+    },
+    {
+      "nombre": "PS5",
+      "precio": 450,
+      "imagen": "https://th.bing.com/th/id/R.bec14baa9df30f9631479514d28f581b?rik=TIQGzIGj7GTkxw&pid=ImgRaw&r=0",
+      "categoria": "Consolas",
+      "descripcion": "La nueva generacion ha llegado, la nueva Play Station 5 con 3 juegos incluido llevatela y disfruta.",
+      "id": 8
+    },
+    {
+      "nombre": "Nintendo 64",
+      "precio": 100,
+      "imagen": "https://th.bing.com/th/id/R.69eab0ef98cdac3d250dbeb6f8146c0b?rik=wngFZvdo%2fovAKA&pid=ImgRaw&r=0",
+      "categoria": "Consolas",
+      "descripcion": "Lis juegos retro siempre nos llenaran de felicidad. Esta aqui la nintendo 64 con 4 juegos como el zelda, mario bross y otros",
+      "id": 9
+    },
+    {
+      "nombre": "Nintendo 3DS",
+      "precio": 125,
+      "imagen": "https://th.bing.com/th/id/R.73ff8034dd7072a1e206de4bac876df8?rik=%2bzx8gcm3ohgZgw&riu=http%3a%2f%2fstatic.giantbomb.com%2fuploads%2foriginal%2f0%2f5150%2f1686077-3dshw11908.jpg&ehk=nTZ%2bkaj%2fzlSq%2bamkuI%2fvwiQ8UPH6SWov9RkJodkYSRA%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Consolas",
+      "descripcion": "LLeva tus juegos favoritos a donde quiera que vayas con esta nintendo 3ds.",
+      "id": 10
+    },
+    {
+      "nombre": "Control PS4",
+      "precio": 80,
+      "imagen": "https://i.postimg.cc/3Ng7gjqk/control-ps4.png",
+      "categoria": "Diversos",
+      "descripcion": "Experimenta un control de juego perfecto con el control inalámbrico DualShock 4 para PlayStation 4, diseñado para brindar precisión y comodidades.",
+      "id": 11
+    },
+    {
+      "nombre": "Control Xbox360",
+      "precio": 70,
+      "imagen": "https://i.postimg.cc/J4N4Jmwp/control-xbox.png",
+      "categoria": "Diversos",
+      "descripcion": "Conviértete en el dueño del campo de batalla con el control Xbox 360, con su diseño ergonómico y botones de respuesta rápida.",
+      "id": 12
+    },
+    {
+      "nombre": "Nintendo 3DS",
+      "precio": 77,
+      "imagen": "https://i.postimg.cc/1RpZ7HWt/nintendo-3ds.png",
+      "categoria": "Diversos",
+      "descripcion": "Descubre un mundo de entretenimiento portátil en 3D con la consola Nintendo 3DS, que ofrece gráficos sorprendentes y una amplia biblioteca de juegos.",
+      "id": 13
+    },
+    {
+      "nombre": "Nintendo Switch",
+      "precio": 325,
+      "imagen": "https://i.postimg.cc/Hsd1qyKt/nintendo-switch.png",
+      "categoria": "Diversos",
+      "descripcion": "Juega sin límites con la consola Nintendo Switch, que se adapta a tu estilo de vida con su versatilidad única y una experiencia de juego inigualable.",
+      "id": 14
+    },
+    {
+      "nombre": "Xbox One",
+      "precio": 90,
+      "imagen": "https://i.postimg.cc/ZKHz4qzz/xboxOne.jpg",
+      "categoria": "Diversos",
+      "descripcion": "Experimenta la próxima generación de juegos con la consola Xbox One, que ofrece un rendimiento impresionante y una amplia gama de entretenimiento.",
+      "id": 15
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Star Wars",
+      "nombre": "Darth Vader",
+      "precio": "$24",
+      "descripcion": "",
+      "id": "9ea256e0-f99e-4763-8804-b148a14dfd88"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "26bb087f-0019-470b-a1c2-0ce6eb104d3b"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "b59f8c4f-5661-4327-88b0-03c96600e200"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "",
+      "nombre": "Darth Vader",
+      "precio": "$24",
+      "descripcion": "asdasdasd",
+      "id": "fc2f573a-c332-4ab2-b5a6-991c5ba67daf"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "f4740bf0-122f-4cda-8285-d427c42c3e21"
+    },
+    {
+      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Star Wars",
+      "nombre": "Darth Vader",
+      "precio": "$24",
+      "descripcion": "",
+      "id": "e66eea06-63d6-45e1-8b39-33b15f23a16f"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "433b3db0-70d0-4cdf-899a-a68c12d43021"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "0a0735aa-2447-4176-aae1-bd8ffafa5137"
+    },
+    {
+      "imagen": "",
+      "categoria": "",
+      "nombre": "",
+      "precio": "",
+      "descripcion": "",
+      "id": "bdf8c83d-58ef-4d32-933c-f4775278520e"
+    }
+  ]
+}
