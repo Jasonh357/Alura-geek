@@ -2,15 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
-        rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/reset.css">
     <link rel="stylesheet" href="../assets/css/normalize.css">
-    <link rel="stylesheet" href="../assets/css/Productos/Productos.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/registrar-producto/nuevo-producto.css">
     <link rel="stylesheet" href="../assets/css/contacto.css">
     <link rel="stylesheet" href="../assets/css/footer.css">
 </head>
@@ -25,22 +22,49 @@
                     <input class="header__search-input" id="search__items" placeholder=" Qué desea buscar ?"
                         type="text"><img alt="" class="header__search-icon" src="../assets/img/icon-search.svg">
                 </div>
-
+                
             </div>
+            <a class="header__btn-a" href="#"><button class="header__btn-registrar">Menú administrador</button></a>
             <button class="header__mobile-button">
                 <img class="search__mobile-button-img" src="../assets/img/icon-search.svg" alt="lupa" />
             </button>
         </div>
     </header>
     <main>
-        <section class="productos__container" >
-            <div class="productos__top">
-                <h2 class="productos__titulo">Todos los productos</h2>
-                    <a class="productos__link" href="./registrar-producto.html"><button class="productos__btn">Agregar productos</button></a>
+        <section class="nuevo__producto">
+            <div class="nuevo__producto-container">
+                <form class="nuevo__producto-form" id="nuevo__producto-form" data-form>
+                    <h2 class="nuevo__producto-titulo">Agregar nuevo producto</h2>
+                   <div class="nuevo__grupo" id="input__url">
+                    <input class="nuevo__producto-input" type="text" placeholder="Url de imagen" name="url" id="url" data-url required>
+                    <label class="nuevo__producto-label" for="text">Url de imagen</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
+                   </div>
+                   <div class="nuevo__grupo" id="input__categoria">
+                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria" data-categoria >
+                    <label class="nuevo__producto-label" for="text">Categoria</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
+                   </div>
+                   <div class="nuevo__grupo" id="input__nombre">
+                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre" data-nombre >
+                    <label class="nuevo__producto-label" for="text">Nombre del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
+                   </div>
+                   <div class="nuevo__grupo" id="input__precio">
+                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio" data-precio >
+                    <label class="nuevo__producto-label" for="text">Precio del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
+                   </div>
+                   <div class="nuevo__grupo" id="input__descripcion">
+                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion" data-descripcion></textarea>
+                    <label class="nuevo__producto-label" for="text">Descripcion del producto</label>
+                    <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
+                   </div>
+                    
+                    <button type="submit" class="nuevo__producto-btn"> Agregar producto</button>
+                </form>
             </div>
-            <div class="productos" data-producto>
-           
-        </div>
+
         </section>
     </main>
     <footer>
@@ -67,7 +91,7 @@
                 <h2 class = "contacto__titulo">Hable con nosotros</h2>
     
                 <div class="contacto__input" id="contacto__nombre">
-                    <input name="nombre" id="name" class="contactoform__input" type="text" placeholder="Nombre" required>
+                    <input name="nombre" id="name" class="contactoform__input" type="text" placeholder="Nombre" >
                     <label class="contacto__input-label" for="name">Nombre</label>
                     <span class="input__mensaje-error">Este campo no es valido</span>
                 </div>
@@ -82,15 +106,18 @@
                 <button class = "contacto__button" id = "contact__boton" >Enviar mensaje</button>
                 <span class="contacto__enviado" id="contacto__enviado">Mensaje enviado con exito!</span>
             </form>
-         
         </section>
         <div class="info__footer">
             <p>Desarrollado por Jason Hernandez</p>
             <p>2023</p>
         </div>
     </footer>
-    <script src="../js/validaciones.js"></script>
-    <script type="module" src="../controllers/producto-control.js"></script>
     
+  <script type="module" src="../controllers/actualizar-control.js"></script>
+     <script type="module" src="../js/validaciones.js"></script>
+     <script type="module" src="../js/validacion-nuevo.js"></script>
+   
+    
+   
 </body>
 </html>

@@ -9,28 +9,28 @@
   ],
   "productos": [
     {
-      "id": 1,
-      "nombre": "Tostadora Darth Vader",
-      "precio": 50,
       "imagen": "https://estaticos.elperiodico.com/resources/jpg/0/8/1556887605980.jpg",
       "categoria": "Star Wars",
-      "descripcion": "Haz que tus tostadas se pasen el lado oscuro con esta tostadora de Darth Vader."
+      "nombre": "Tostadora Darth Vader",
+      "precio": "50.50",
+      "descripcion": "Haz que tus tostadas se pasen el lado oscuro con esta tostadora de Darth Vader.",
+      "id": 1
     },
     {
-      "id": 2,
-      "nombre": "Taza Star Wars",
-      "precio": 20,
       "imagen": "https://img.elo7.com.br/product/zoom/3289F64/arte-para-caneca-filmes-series-178-pacote-de-artes-para-sublimacao.jpg",
       "categoria": "Star Wars",
-      "descripcion": "Que tus bebidas sean de otra galaxia con esta taza de Star Wars edicion limitada."
+      "nombre": "Taza Star Wars",
+      "precio": "$25",
+      "descripcion": "Que tus bebidas sean de otra galaxia con esta taza de Star Wars edicion limitada.",
+      "id": 2
     },
     {
-      "id": 3,
-      "nombre": "Figura Baby Yoda",
-      "precio": 50,
       "imagen": "https://http2.mlstatic.com/D_NQ_NP_904484-MLV45357809186_032021-F.jpg",
       "categoria": "Star Wars",
-      "descripcion": "Baby yoda un leal compañero de aventuras."
+      "nombre": "Figura Baby Yoda",
+      "precio": "$30",
+      "descripcion": "prueba",
+      "id": 3
     },
     {
       "id": 4,
@@ -105,100 +105,36 @@
       "id": 12
     },
     {
-      "nombre": "Nintendo 3DS",
-      "precio": 77,
       "imagen": "https://i.postimg.cc/1RpZ7HWt/nintendo-3ds.png",
       "categoria": "Diversos",
+      "nombre": "Nintendo 3DS",
+      "precio": "$99",
       "descripcion": "Descubre un mundo de entretenimiento portátil en 3D con la consola Nintendo 3DS, que ofrece gráficos sorprendentes y una amplia biblioteca de juegos.",
       "id": 13
     },
     {
-      "nombre": "Nintendo Switch",
-      "precio": 325,
-      "imagen": "https://i.postimg.cc/Hsd1qyKt/nintendo-switch.png",
-      "categoria": "Diversos",
-      "descripcion": "Juega sin límites con la consola Nintendo Switch, que se adapta a tu estilo de vida con su versatilidad única y una experiencia de juego inigualable.",
-      "id": 14
+      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
+      "categoria": "Star Wars",
+      "nombre": "Darth Vader",
+      "precio": "$24",
+      "descripcion": "hola",
+      "id": "5354147e-b918-4cdb-9493-b60c77b42bc9"
     },
     {
-      "nombre": "Xbox One",
-      "precio": 90,
-      "imagen": "https://i.postimg.cc/ZKHz4qzz/xboxOne.jpg",
-      "categoria": "Diversos",
-      "descripcion": "Experimenta la próxima generación de juegos con la consola Xbox One, que ofrece un rendimiento impresionante y una amplia gama de entretenimiento.",
-      "id": 15
+      "imagen": "https://th.bing.com/th/id/OIP.7ZIoJZsi-hBZ9Q4KeDRZBwHaD5?pid=ImgDet&rs=1",
+      "categoria": "Consolas",
+      "nombre": "Ps2",
+      "precio": "$125",
+      "descripcion": "",
+      "id": "d8e81545-3462-4ec1-bdd7-cbcc46069225"
     },
     {
       "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
       "categoria": "Star Wars",
       "nombre": "Darth Vader",
-      "precio": "$24",
-      "descripcion": "",
-      "id": "9ea256e0-f99e-4763-8804-b148a14dfd88"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "26bb087f-0019-470b-a1c2-0ce6eb104d3b"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "b59f8c4f-5661-4327-88b0-03c96600e200"
-    },
-    {
-      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
-      "categoria": "",
-      "nombre": "Darth Vader",
-      "precio": "$24",
-      "descripcion": "asdasdasd",
-      "id": "fc2f573a-c332-4ab2-b5a6-991c5ba67daf"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "f4740bf0-122f-4cda-8285-d427c42c3e21"
-    },
-    {
-      "imagen": "https://th.bing.com/th/id/R.b0c473c6aca8e81403e0213954f68432?rik=U1K5pVwK5Ga8bQ&riu=http%3a%2f%2fcdn.bgr.com%2f2015%2f08%2fdarth-vader.jpg&ehk=WClYBWDGx9HXk3E7I7UtpcB7tTPXEpSQ6K7R33O%2bDaU%3d&risl=&pid=ImgRaw&r=0",
-      "categoria": "Star Wars",
-      "nombre": "Darth Vader",
-      "precio": "$24",
-      "descripcion": "",
-      "id": "e66eea06-63d6-45e1-8b39-33b15f23a16f"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "433b3db0-70d0-4cdf-899a-a68c12d43021"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "0a0735aa-2447-4176-aae1-bd8ffafa5137"
-    },
-    {
-      "imagen": "",
-      "categoria": "",
-      "nombre": "",
-      "precio": "",
-      "descripcion": "",
-      "id": "bdf8c83d-58ef-4d32-933c-f4775278520e"
+      "precio": "$45",
+      "descripcion": "nuevo",
+      "id": "dddf272d-0a44-4856-9f15-5a4f41305def"
     }
   ]
 }

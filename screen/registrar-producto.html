@@ -41,22 +41,22 @@
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__categoria">
-                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria" data-categoria >
+                     <input class="nuevo__producto-input" type="text" placeholder="Categoria" name="categoria" id="categoria" data-categoria required>
                     <label class="nuevo__producto-label" for="text">Categoria</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__nombre">
-                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre" data-nombre >
+                     <input class="nuevo__producto-input" type="text" placeholder="Nombre del producto" name="nombre" id="nombre" data-nombre required >
                     <label class="nuevo__producto-label" for="text">Nombre del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__precio">
-                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio" data-precio >
+                    <input class="nuevo__producto-input" type="text" placeholder="Precio del producto" name="precio" id="precio" data-precio required>
                     <label class="nuevo__producto-label" for="text">Precio del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
                    <div class="nuevo__grupo" id="input__descripcion">
-                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion" data-dsc ></textarea>
+                    <textarea class="nuevo__producto-input-msg" type="text" placeholder="Descripcion del producto" name="descripcion" id="descripcion" data-descripcion required></textarea>
                     <label class="nuevo__producto-label" for="text">Descripcion del producto</label>
                     <span class="nuevo__producto-mensaje-error">Este campo es invalido</span>
                    </div>
@@ -113,8 +113,10 @@
         </div>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../js/validaciones.js"></script>
-    <script  src="../js/validacion-nuevo.js"></script>
-    <script type="module" src="../controllers/registro-control.js"></script>
+     <script type="module" src="../controllers/registro-control.js"></script>
+     <script src="../js/validaciones.js"></script>
+    <script type="module"  src="../js/validacion-nuevo.js"></script>
+   
+   
 </body>
 </html>

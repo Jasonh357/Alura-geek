@@ -44,7 +44,7 @@ const validarFormularioProducto = (e) => {
     }
 }
 
-const validarCampoProductos = (expresion, input, campo) => {
+export const validarCampoProductos = (expresion, input, campo) => {
     if (expresion.test(input.value)) {
         document.getElementById(`input__${campo}`).classList.remove('nuevo__grupo-error');
         document.querySelector(`#input__${campo} .nuevo__producto-mensaje-error`).classList.remove('nuevo__producto-mensaje-error-activo');

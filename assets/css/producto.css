@@ -79,6 +79,10 @@ text-decoration: none;
 
 }
 
+.categoria__span{
+    display: flex;
+}
+
 @media (767px <=width <=1023px) {
     .producto__listados {
       grid-template-columns: repeat(2, 1fr); /* Cambiar a una cuadrícula de 2 columnas en pantallas más pequeñas */
